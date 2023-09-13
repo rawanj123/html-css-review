@@ -2,6 +2,7 @@ html {
     box-sizing: border-box;
     font-family: wix-madefor-display;
     background-color: #7251B5;
+    list-style: none;
 }
 
 header nav {
@@ -9,7 +10,6 @@ header nav {
     flex-flow: row;
     flex-direction: row;
     justify-content: flex-end;
-    list-style: none;
     background-color: #000;
     color: #DEC9E9;
 }
