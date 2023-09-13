@@ -12,6 +12,7 @@ html {
     flex-flow: row;
     flex-direction: row;
     justify-content: flex-end;
+    gap: 5px;
     background-color: #000;
     color: #DEC9E9;
 }
