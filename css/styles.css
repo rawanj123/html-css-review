@@ -1,9 +1,6 @@
 html {
     box-sizing: border-box;
 }
- header {
-    text-shadow: 2px 2px 5px #000;
- }
 
 nav ul {
     display: flex;
@@ -13,6 +10,10 @@ nav ul {
 }
 
 img
+
+h1 {
+    text-shadow: 2px 2px 5px #000;
+}
 
 body {
     font-family: Nunito;
