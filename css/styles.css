@@ -39,3 +39,7 @@ body {
     grid-template-rows: 1fr 1fr;
     justify-content: center;
 }
+
+.members {
+    border-radius: 50%;
+}
