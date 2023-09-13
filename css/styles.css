@@ -1,6 +1,9 @@
 html {
     box-sizing: border-box;
 }
+ header {
+    text-shadow: #000;
+ }
 
 nav li {
     display: flex;
