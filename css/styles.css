@@ -12,7 +12,8 @@ img
 
 body {
     font-family: Nunito;
-    text color: #fff;
-    line height: 1.5;
+    color: #fff;
+    line-height: 1.5;
+    background-image: url("ice-cream-cones.jpg");
     background-color: #7251B5;
 }
