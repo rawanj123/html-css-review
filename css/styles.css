@@ -5,7 +5,7 @@ html {
     list-style: none;
 }
 
-header nav {
+header ul {
     display: flex;
     flex-flow: row;
     flex-direction: row;
