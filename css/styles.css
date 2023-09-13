@@ -20,6 +20,7 @@ h1 {
     position: relative;
     text-align: center;
     color: #fff;
+    background-image: url("ice-cream-cones.jpg");
 }
 
 body {
@@ -27,7 +28,6 @@ body {
     font-size: 1.5rem;
     color: #fff;
     line-height: 1.5;
-    background-image: url("ice-cream-cones.jpg");
     background-color: #7251B5;
 }
 
@@ -45,4 +45,5 @@ body {
 
 .members {
     border-radius: 50%;
+    
 }
