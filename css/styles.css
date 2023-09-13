@@ -1,3 +1,9 @@
 html {
     box-sizing: border-box;
 }
+
+body {
+    font-family: Nunito;
+    text color: #fff;
+    line height: 1.5;
+}
