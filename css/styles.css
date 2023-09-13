@@ -4,12 +4,16 @@ html {
     background-color: #7251B5;
 }
 
-header {
+header nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     text-decoration: none;
     background-color: #000;
+}
+
+header {
+    justify-content: left;
 }
 
 img
