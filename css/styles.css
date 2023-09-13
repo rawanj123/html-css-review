@@ -6,6 +6,7 @@ html {
 
 header nav {
     display: flex;
+    flex-flow: row;
     flex-direction: row;
     justify-content: flex-end;
     list-style: none;
