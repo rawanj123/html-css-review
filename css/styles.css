@@ -3,11 +3,12 @@ html {
     font-family: wix-madefor-display;
 }
 
-nav ul {
+header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     text-decoration: none;
+    background-color: #000;
 }
 
 img
