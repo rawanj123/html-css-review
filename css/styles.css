@@ -71,3 +71,9 @@ ol {
     border-radius: 50%;
     filter: grayscale;
 }
+
+footer {
+    background-color: #000;
+    color: #DEC9E9;
+    justify-content: center;
+}
