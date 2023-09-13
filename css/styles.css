@@ -42,6 +42,10 @@ body {
     margin: auto;
 }
 
+dl {
+    background-color: #000;
+}
+
 .grid {
     float: left;
     width: 50%;
@@ -53,7 +57,7 @@ ol {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-content: center;
-    place-self: ;
+    place-self: center;
 }
 
 .members {
