@@ -5,7 +5,7 @@
 body {
     font-family: 'Nunito', sans-serif;
     line-height: 1.5;
-    /* color: #fff; */
+    color: #fff;
     margin: 0;
 }
 
@@ -22,10 +22,30 @@ body {
     font-size: 1.5rem;
 }
 
+#intro,
+#fan-fav,
+#team {
+    padding: 4em 0;
+}
+
 #header {
     background-color: #000;
 }
 
+#header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding-left: 1.25em;
+}
 
 nav ul li a:link,
 nav ul li a:visited {
@@ -33,12 +53,10 @@ nav ul li a:visited {
     text-decoration: none;
 }
 
-
 nav ul li a:hover,
 nav ul li a:focus {
     color: #fff;
 }
-
 
 #hero-banner {
     height: 60vh;
@@ -47,4 +65,80 @@ nav ul li a:focus {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+
+    display: flex;
+    align-items: center;
+}
+
+#intro {
+    background-color: #7251B5;
+}
+
+#intro p {
+    max-width: 50%;
+}
+
+#fan-fav {
+    background-color: #000;
+    color: #DEC9E9;
+}
+
+#fan-fav ol {
+    list-style-type: none;
+    padding-left: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#fan-fav ol li {
+    width: 50%;
+    padding-right: 15%;
+}
+
+#team {
+    background-color: #7251B5;
+}
+
+#team h2,
+.team-intro {
+    max-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2.5em;
+    gap: 1em;
+}
+
+.team-grid article {
+    background-color: #6647A6;
+    border-radius: 20px;
+    padding: 3em 0;
+
+    text-align: center;
+}
+
+.team-grid article img {
+    width: 80px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+.team-grid h3 {
+    text-transform: uppercase;
+    margin-bottom: 0%;
+}
+
+.team-grid article p {
+    margin-top: 0%;
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 1em 0;
 }
